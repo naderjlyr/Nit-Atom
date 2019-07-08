@@ -5,14 +5,14 @@ import suggestions from '../Data/data';
 
 class IntermediateProvider {
 	constructor() {
-		// offer suggestions only when editing plain text or HTML files
+		// offer suggestions only when editing nit file type.
 		this.selector = '.source.nit';
 	}
 
 	getSuggestions(options) {
 		const { prefix } = options;
 
-		// only look for suggestions after 3 characters have been typed
+		// look for suggestions after atleast 2 characters have been typed.
 		if (prefix.length >= 2) {
 			return this.findMatchingSuggestions(prefix);
 		}
