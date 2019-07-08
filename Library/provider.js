@@ -1,7 +1,7 @@
 'use babel';
 
 // data source is an array of objects
-import suggestions from '../data/intermediate';
+import suggestions from '../Data/data';
 
 class IntermediateProvider {
 	constructor() {
