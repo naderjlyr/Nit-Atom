@@ -1,6 +1,6 @@
 {
   "name": "Nit-autocomplete",
-  "main": "./lib/main",
+  "main": "./Library/main",
   "version": "0.1.0",
   "description": "Nit autocomplete package for Atom text editor.",
   "keywords": [
