@@ -6,14 +6,14 @@ import suggestions from '../data/intermediate';
 class IntermediateProvider {
 	constructor() {
 		// offer suggestions only when editing plain text or HTML files
-		this.selector = '.text.plain, .text.html.basic';
+		this.selector = '.source.nit';
 	}
 
 	getSuggestions(options) {
 		const { prefix } = options;
 
 		// only look for suggestions after 3 characters have been typed
-		if (prefix.length >= 3) {
+		if (prefix.length >= 2) {
 			return this.findMatchingSuggestions(prefix);
 		}
 	}

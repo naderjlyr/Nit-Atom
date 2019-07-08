@@ -1,15 +1,15 @@
 {
-  "name": "autocomplete-boilerplate",
+  "name": "Nit-autocomplete",
   "main": "./lib/main",
-  "version": "0.2.0",
-  "description": "Boilerplate package for creating your own custom autocomplete provider for Atom.",
+  "version": "0.1.0",
+  "description": "Nit autocomplete package for Atom text editor.",
   "keywords": [
-    "autocomplete",
-    "provider",
-    "boilerplate"
+    "Nit",
+    "Atom",
+    "autocomplete"
   ],
-  "repository": "https://github.com/lonekorean/atom-autocomplete-boilerplate",
-  "author": "Will Boyd <will@codersblock.com> (http://codersblock.com)",
+  "repository": "https://github.com/Nader-J/Nit-Atom",
+  "author": "Nader Jalayeri (http://github.com/Nader-J) , Omid Mohammad Beigi (https://github.com/omid23)",
   "license": "MIT",
   "engines": {
     "atom": ">=1.15.0 <2.0.0"
