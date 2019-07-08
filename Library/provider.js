@@ -12,7 +12,7 @@ class IntermediateProvider {
 	getSuggestions(options) {
 		const { prefix } = options;
 
-		// look for suggestions after atleast 2 characters have been typed.
+		// look for suggestions after at least 2 characters have been typed.
 		if (prefix.length >= 2) {
 			return this.findMatchingSuggestions(prefix);
 		}
