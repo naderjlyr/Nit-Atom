@@ -1,0 +1,403 @@
+name: "Nit"
+scopeName: "source.nit"
+fileTypes: [
+  "nit"
+]
+firstLineMatch: '^#!\\s*\\/.*\\snit'
+patterns: [
+  {
+    include: "#markup"
+  }
+  {
+    include: "#strings"
+  }
+  {
+    include: "#comments"
+  }
+  {
+    include: "#builtins"
+  }
+  {
+    include: "#entity"
+  }
+  {
+    include: "#keyword"
+  }
+  {
+    include: "#constant"
+  }
+  {
+    include: "#storage"
+  }
+  {
+    include: "#variable"
+  }
+]
+repository:
+  "comments":
+    begin: "(^[ \\t]+)?(?=#)"
+    beginCaptures:
+      1:
+        name: "punctuation.whitespace.comment.leading.nit"
+    end: "(?!\\G)"
+    patterns: [
+      {
+        begin: "#"
+        beginCaptures:
+          0:
+            name: "punctuation.definition.comment.nit"
+        end: "\\n"
+        name: "comment.line.number-sign.nit"
+      }
+    ]
+  "character":
+    name: "string.character.nit"
+    match: "('[^\\\\']'|'\\\\.')"
+  "simple-string":
+    name: "string.quoted.double.nit"
+    begin: "\\\""
+    end: "\\\""
+    patterns: [
+      {
+        include: "#short-interpolation"
+      }
+      {
+        name: "string.char.nit"
+        match: "([^\\\\]|\\\\.)"
+      }
+    ]
+  "long-tquote-string":
+    name: "string.triple.nit"
+    begin: "\\\"\\\"\\\""
+    end: "\\\"\\\"\\\""
+    patterns: [
+      {
+        include: "#long-interpolation"
+      }
+      {
+        name: "string.char.nit"
+        match: "([^\\\\]|\\\\.)"
+      }
+    ]
+  "long-tquote-alt-string":
+    name: "string.triple.alt.nit"
+    begin: "'''"
+    end: "'''"
+    patterns: [
+      {
+        include: "#long-interpolation"
+      }
+    ]
+  "long-interpolation":
+    name: "meta.interpolation.long.nit"
+    begin: "{{{"
+    end: "}}}"
+    captures:
+      0:
+        name: 'punctuation.section.embedded.nit'
+    patterns: [
+      {
+        include: "$self"
+      }
+    ]
+  "short-interpolation":
+    name: "meta.interpolation.short.nit"
+    begin: "{"
+    end: "}"
+    captures:
+      0:
+        name: 'punctuation.section.embedded.nit'
+    patterns: [
+      {
+        include: "$self"
+      }
+    ]
+  "strings":
+    patterns: [
+      {
+        include: "#long-tquote-alt-string"
+      }
+      {
+        include: "#long-tquote-string"
+      }
+      {
+        include: "#simple-string"
+      }
+      {
+        include: "#character"
+      }
+    ]
+  "builtins":
+    patterns: [
+      {
+        name: "support.type.core.nit"
+        match: "(?x)\\b(
+          AbstractArray|AbstractArrayRead|Array|ArrayCmp|ArrayMap|ArraySet|
+          BM_Pattern|Bool|Buffer|BufferedReader|Byte|BytePattern|Bytes|
+          CachedAlphaComparator|Char|CircularArray|Cloneable|Coder|Collection|
+          Comparable|Comparator|Couple|CoupleMap|Decoder|DefaultComparator|
+          DefaultReverseComparator|Discrete|DisjointSet|Duplex|Error|FileReader|
+          FileStat|FileStream|FileWriter|Finalizable|FinalizableOnce|FlatBuffer|
+          FlatString|FlatText|Float|HashMap|HashSet|IndexedIterator|Int|IOError|
+          ISODate|Iterator|IteratorDecorator|LineIterator|List|ListIterator|Map|
+          MapComparator|MapIterator|MapKeysIterator|MapRead|MapValuesIterator|
+          Match|MaybeError|MinHeap|NativeArray|NativeString|Numeric|Object|Path|
+          Pattern|PollableReader|Process|ProcessDuplex|ProcessReader|
+          ProcessWriter|Queue|Range|Reader|Ref|Regex|RemovableCollection|
+          RopeBuffer|RopeBufferByteIterator|RopeBufferByteReverseIterator|
+          RopeBufferBytes|RopeBufferCharIterator|RopeBufferCharReverseIterator|
+          RopeBufferChars|Sequence|SequenceRead|Set|SimpleCollection|Stderr|
+          Stdin|Stdout|Stream|String|StringReader|StringWriter|Sys|Task|Text|
+          Writable|Writer
+        )\\b"
+      }
+    ]
+  "variable":
+    patterns: [
+      {
+        name: "variable.language.nit"
+        match: "\\b(self)\\b"
+      }
+      {
+        name: "variable.other.nit"
+        match: "[a-z][a-zA-Z0-9_]*"
+      }
+    ]
+  "constant":
+    patterns: [
+      {
+        name: "constant.numeric.float_exp.nit"
+        match: "-?(([0-9]*.[0-9])|([0-9]+))+e-?[0-9]+"
+      }
+      {
+        name: "constant.numeric.float.nit"
+        match: "-?[0-9]*\\.[0-9]+"
+      }
+      {
+        name: "constant.numeric.hex.nit"
+        match: "-?0(x|X)[0-9A-Fa-f_]+((u|i)(8|(16)|(32)))?"
+      }
+      {
+        name: "constant.numeric.oct.nit"
+        match: "-?0(o|O)[0-7_]+((u|i)(8|(16)|(32)))?"
+      }
+      {
+        name: "constant.numeric.bin.nit"
+        match: "-?0(b|B)[0-1_]+((u|i)(8|(16)|(32)))?"
+      }
+      {
+        name: "constant.numeric.dec.nit"
+        match: "-?[0-9][0-9_]*((u|i)(8|(16)|(32)))?"
+      }
+      {
+        name: "constant.language.nit"
+        match: "\\b(true|false|null)\\b"
+      }
+    ]
+  "markup":
+    patterns: [
+      {
+        begin: "(?xi)(?<=
+          \\\"java\\\"|
+          \\\"java\\sinner\\\"
+        )\\s`{"
+        end: "`}"
+        captures:
+          0:
+            name: "punctuation.section.embedded.markup.nit"
+        name: "meta.source.java"
+        patterns: [
+          {
+            include: "source.java"
+          }
+        ]
+      }
+      {
+        begin: "(?xi)(?<=
+          \\\"objc\\\"|
+          \\\"objc\\sbody\\\"|
+          \\\"objc\\sheader\\\"
+        )\\s`{"
+        end: "`}"
+        captures:
+          0:
+            name: "punctuation.section.embedded.markup.nit"
+        name: "meta.source.objc"
+        patterns: [
+          {
+            include: '#c-blocks'
+          }
+          {
+            include: "source.objc"
+          }
+        ]
+      }
+      {
+        begin: "(?xi)(?<=
+          \\\"c\\+\\+\\\"|
+          \\\"c\\+\\+\\sbody\\\"|
+          \\\"c\\+\\+\\sheader\\\"
+        )\\s`{"
+        end: "`}"
+        captures:
+          0:
+            name: "punctuation.section.embedded.markup.nit"
+        name: "meta.source.cpp"
+        patterns: [
+          {
+            captures:
+              1:
+                name: 'support.function.any-method.c'
+              2:
+                name: 'punctuation.definition.parameters.c'
+            match: '(?x)(
+                (?!while|for|do|if|else|switch|catch|enumerate|return|r?iterate)
+                (?: \\b[A-Za-z_][A-Za-z0-9_]*+\\b | :: )*+
+              )\\s*(\\()'
+            name: 'meta.function-call.c'
+          }
+          {
+            include: "source.cpp"
+          }
+        ]
+      }
+      {
+        begin: "`{"
+        end: "`}"
+        captures:
+          0:
+            name: "punctuation.section.embedded.markup.nit"
+        name: "meta.source.c"
+        patterns: [
+          {
+            include: "#c-blocks"
+          }
+          {
+            include: 'source.c'
+          }
+        ]
+      }
+    ]
+  "c-blocks":
+    patterns: [
+      {
+        include: 'source.c#preprocessor-rule-enabled-block'
+      }
+      {
+        include: 'source.c#preprocessor-rule-disabled-block'
+      }
+      {
+        include: 'source.c#preprocessor-rule-other-block'
+      }
+      {
+        include: 'source.c#sizeof'
+      }
+      {
+        include: 'source.c#access'
+      }
+      {
+        include: 'source.c#libc'
+      }
+      {
+        include: 'source.c#c_function_call'
+      }
+      {
+        captures:
+          1:
+            name: 'variable.other.c'
+          2:
+            name: 'punctuation.definition.parameters.c'
+        match: '(?x)
+        (?:
+          (?:
+            (?= \\s ) (?<!else|new|return) (?<=\\w)\\s+
+          )
+        )
+        (
+          (?: [A-Za-z_][A-Za-z0-9_]*+ | :: )++
+          |
+          (?: (?<=operator) (?: [-*&<>=+!]+ | \\(\\) | \\[\\] ) )
+        )
+        \\s*(\\()'
+        name: 'meta.initialization.c'
+      }
+      {
+        include: 'source.c#block'
+      }
+    ]
+  "entity":
+    patterns: [
+      {
+        name: "entity.name.function.nit"
+        match: "(?<=fun ).*?(?=:|\\(|\\s|\\n)"
+      }
+      {
+        name: "entity.other.inherited-class.nit"
+        match: "(?<=super )[A-Z][a-zA-Z0-9_]*"
+      }
+      {
+        name: "entity.name.type.nit"
+        match: "[A-Z][a-zA-Z0-9_]*"
+      }
+      {
+        name: "entity.other.attribute-name.nit"
+        match: "_[a-z][a-zA-Z0-9_]*"
+      }
+    ]
+  "storage":
+    patterns: [
+      {
+        name: "storage.type.nit"
+        match: "(?x)\\b(
+          fun|init|class|interface|
+          module|import|package|abstract|
+          universal|enum
+        )\\b"
+      }
+      {
+        name: "storage.modifier.nit"
+        match: "(?x)\\b(
+          private|protected|public|intrude|extern|intern|
+          readable|writable|special|noinit
+        )\\b"
+      }
+    ]
+  "keyword":
+    patterns: [
+      {
+        name: "keyword.control.nit"
+        match: "\\b(label|if|then|loop|else|while|for|do|end|in|with)\\b"
+      }
+      {
+        name: "keyword.breaks.nit"
+        match: "\\b(return|continue|break|abort)\\b"
+      }
+      {
+        name: "keyword.declaration.nit"
+        match: "\\b(nullable|once|new|var)\\b"
+      }
+      {
+        name: "keyword.annot.nit"
+        match: "\\b(is)\\b"
+      }
+      {
+        name: "keyword.types.nit"
+        match: "\\b(isa|as|type|isset)\\b"
+      }
+      {
+        name: "keyword.other.special-method.misc.nit"
+        match: "\\b(assert|__debug__|super|implies|redef)\\b"
+      }
+      {
+        name: "keyword.operator.nit"
+        match: "(?x)(
+          ==|\\+=|-=|!=|=|!|@|<=>|<=|<<|<|>=|>>|>|
+          \\(|\\)|\\[\\]|\\[|\\]|,|::|:|\\.\\.\\.|\\.\\.|
+          \\.|\\+|-|\\*\\*|\\*|/|%
+        )"
+      }
+      {
+        name: "keyword.operator.boolean.nit"
+        match: "\\b(and|not|or)\\b"
+      }
+    ]
