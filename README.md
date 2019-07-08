@@ -1,2 +1,3 @@
 # Nit-Atom
- Nit automcomplete package for Atom text editor
+ Nit Auto Complete package for Atom text editor.
+ This package includes syntax highlighter, auto complete feature.
