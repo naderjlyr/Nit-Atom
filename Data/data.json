@@ -2,267 +2,267 @@
 	{
 		"text": "package",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwpackage.html"
 	},
 	{
 		"text": "module",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwmodule.html"
 	},
 
 	{
 		"text": "import",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwimport.html"
 	},
 	{
 		"text": "class",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwclass.html"
 	},
 	{
 		"text": "abstract",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwabstract.html"
 	},
 	{
 		"text": "interface",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwinterface.html"
 	},
 	{
 		"text": "enum",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwenum.html"
 	},
 	{
 		"text": "subset",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwsubset.html"
 	},
 	{
 		"text": "end",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwend.html"
 	},
 	{
 		"text": "meth",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwmeth.html"
 	},
 	{
 		"text": "type",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwtype.html"
 	},
 	{
 		"text": "init",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwinit.html"
 	},
 	{
 		"text": "redef",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwredef.html"
 	},
 	{
 		"text": "is",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwis.html"
 	},
 	{
 		"text": "do",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwdo.html"
 	},
 	{
 		"text": "var",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwvar.html"
 	},
 	{
 		"text": "extern",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwextern.html"
 	},
 	{
 		"text": "public",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwpublic.html"
 	},
 	{
 		"text": "protected",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwprotected.html"
 	},
 	{
 		"text": "private",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwprivate.html"
 	},
 	{
 		"text": "intrude",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwintrude.html"
 	},
 	{
 		"text": "if",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwif.html"
 	},
 	{
 		"text": "then",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwthen.html"
 	},
 	{
 		"text": "else",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwelse.html"
 	},
 	{
 		"text": "while",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwwhile.html"
 	},
 	{
 		"text": "loop",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwloop.html"
 	},
 	{
 		"text": "for",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwfor.html"
 	},
 	{
 		"text": "in",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwin.html"
 	},
 	{
 		"text": "and",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwand.html"
 	},
 	{
 		"text": "or",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwor.html"
 	},
 	{
 		"text": "not",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwnot.html"
 	},
 	{
 		"text": "implies",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwimplies.html"
 	},
 	{
 		"text": "return",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwreturn.html"
 	},
 	{
 		"text": "continue",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwcontinue.html"
 	},
 	{
 		"text": "break",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwbreak.html"
 	},
 	{
 		"text": "abort",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwabort.html"
 	},
 	{
 		"text": "assert",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwassert.html"
 	},
 	{
 		"text": "new",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwnew.html"
 	},
 	{
 		"text": "isa",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwisa.html"
 	},
 	{
 		"text": "once",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwonce.html"
 	},
 	{
 		"text": "super",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwsuper.html"
 	},
 	{
 		"text": "self",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwself.html"
 	},
 	{
 		"text": "true",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwtrue.html"
 	},
 	{
 		"text": "false",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwfalse.html"
 	},
 	{
 		"text": "null",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwnull.html"
 	},
 	{
 		"text": "as",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwas.html"
 	},
 	{
 		"text": "nullable",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwnullable.html"
 	},
 	{
 		"text": "isset",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwisset.html"
 	},
 	{
 		"text": "label",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwlabel.html"
 	},
 	{
 		"text": "with",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwwith.html"
 	},
 	{
 		"text": "debug",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwdebug.html"
 	},
 	{
 		"text": "yield",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwyield.html"
 	},
 	{
 		"text": "catch",
 		"description": "Define variable, See more:",
-		"descriptionMoreURL": "https://nitlanguage.org/manual/variable.html"
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwcatch.html"
 	}
 ]
