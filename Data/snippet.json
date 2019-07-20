@@ -1,7 +1,7 @@
 [
 	{
 		"displayText": "@var",
-		"snippet": "var ${1:var name}:${2:type}",
+		"snippet": "var ${1:name}: ${2:type}",
 		"description": "Snippet description."
 	},
 	{
