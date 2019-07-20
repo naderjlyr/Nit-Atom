@@ -17,7 +17,6 @@
 	{
 		"displayText": "@fun",
 		"snippet": "fun ${1:FunctionName}(${2:FirstParameter},${3:SecondParameter}: ${4:Type}): ${5:Type}",
-		fun next1(i: Int): Int
-		"description": "Snippet description."
+		"description": "Define function with two parameters, you can add/remove parameters."
 	}
 ]
