@@ -1,22 +1,23 @@
 [
 	{
 		"displayText": "@var",
-		"snippet": "var ${1:name}: ${2:type}",
-		"description": "Define variable."
+		"snippet": "var ${1:VariableName}: ${2:Type}",
+		"description": "Define variable, Rename VariableName to whatever your like!"
 	},
 	{
 		"displayText": "@module",
-		"snippet": "module ${1:this text}",
-		"description": "Define module"
+		"snippet": "module ${1:ModuleName}",
+		"description": "Define module, Rename ModuleName to whatever your like!"
 	},
 	{
-		"displayText": "@snippet3",
-		"snippet": "Start typing to replace ${1:multiple} ${1:text} ${1:simultaneously}. Then hit tab to ${2:do} ${2:it} ${2:again}.",
-		"description": "Snippet description."
+		"displayText": "@class",
+		"snippet": "class ${1:ClassName}",
+		"description": "Define class, Rename ClassName to whatever your like!"
 	},
 	{
-		"displayText": "@snippet4",
-		"snippet": "You don't need filler text for your prompts. Start typing: $1 (notice where the cursor is).",
+		"displayText": "@fun",
+		"snippet": "fun ${1:FunctionName}(${2:FirstParameter},${3:SecondParameter}: ${4:Type}): ${5:Type}",
+		fun next1(i: Int): Int
 		"description": "Snippet description."
 	}
 ]
