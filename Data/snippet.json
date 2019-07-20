@@ -2,12 +2,12 @@
 	{
 		"displayText": "@var",
 		"snippet": "var ${1:VariableName}: ${2:Type}",
-		"description": "Define variable, Rename VariableName to whatever your like!"
+		"description": "Rename VariableName,then hit Tab to define Type."
 	},
 	{
 		"displayText": "@module",
 		"snippet": "module ${1:ModuleName}",
-		"description": "Define module, Rename ModuleName to whatever your like!"
+		"description": "Rename ModuleName to whatever you like!"
 	},
 	{
 		"displayText": "@class",
@@ -15,9 +15,14 @@
 		"description": "Define class, Rename ClassName to whatever your like!"
 	},
 	{
-		"displayText": "@fun",
-		"snippet": "fun ${1:FunctionName}(${2:FirstParameter},${3:SecondParameter}: ${4:Type}): ${5:Type}",
-		fun next1(i: Int): Int
-		"description": "Snippet description."
+		"displayText": "@fun/Integer/Param",
+		"snippet": "fun ${1:function}(${2:param1},${3:param2}: ${4:Int}): ${5:Int}",
+		"description": "An integer method with two integer parameters. Hit tab to edit pre-defined."
+	},
+	{
+		"displayText": "@fun/Integer/NoParam",
+		"snippet": "fun ${1:function}(): ${2:Int}",
+		"description": "An integer method without any parameters. Hit tab to edit pre-defined."
 	}
+
 ]
