@@ -4,7 +4,7 @@
 // instead we will fetch suggestions from this URL
 const API_URL = 'https://raw.githubusercontent.com/Nader-J/Nit-Atom/master/Data/snippet.json';
 
-class AdvancedProvider {
+class mySnippet {
 	constructor() {
 		// offer suggestions only when editing plain text or HTML files
 		this.selector = '.source.nit';
@@ -87,4 +87,4 @@ class AdvancedProvider {
 		atom.notifications.addSuccess(options.suggestion.displayText + ' was inserted.');
 	}
 }
-export default new AdvancedProvider();
+export default new mySnippet();

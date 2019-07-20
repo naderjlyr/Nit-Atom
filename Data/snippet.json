@@ -2,12 +2,12 @@
 	{
 		"displayText": "@var",
 		"snippet": "var ${1:name}: ${2:type}",
-		"description": "Snippet description."
+		"description": "Define variable."
 	},
 	{
-		"displayText": "@snippet2",
-		"snippet": "Replace ${1:this text} then hit tab to replace ${2:this other text}.",
-		"description": "Snippet description."
+		"displayText": "@module",
+		"snippet": "module ${1:this text}",
+		"description": "Define module"
 	},
 	{
 		"displayText": "@snippet3",
