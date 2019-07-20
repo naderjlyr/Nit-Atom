@@ -3,7 +3,7 @@
 // data source is an array of objects
 import suggestions from '../Data/data';
 
-class IntermediateProvider {
+class myProvider {
 	constructor() {
 		// offer suggestions only when editing nit file type.
 		this.selector = '.source.nit';
@@ -38,8 +38,8 @@ class IntermediateProvider {
 			description: suggestion.description,
 			descriptionMoreURL: suggestion.descriptionMoreURL,
 			type: 'value',
-			rightLabel: 'Hero'
+			rightLabel: 'Keyword'
 		};
 	}
 }
-export default new IntermediateProvider();
+export default new myProvider();
