@@ -49,8 +49,8 @@ Here is the list of the applied task on the package.
 - [x] Syntax Highlighter,Grammar file
 - [x] Autocomplete feature
 - [x] Snippet generator. **Note:** It works perfectly but all the necessary snippets should be included. 
-- [ ] Change the structure of snippet generator. **Note:** snippet generator gets its data from an url,which needs to get its data from a local file.
-- [ ] Convert Grammar structure **Note:** Our TextMate Grammar should be turned to Tree-sitter Grammar which is a the preferred structure for Atom.
+- [ ] Change the structure of snippet generator. **Note:** snippet generator gets its data from an URL,which needs to get its data from a local file.
+- [ ] Convert Grammar structure. **Note:** Our TextMate Grammar should be turned to Tree-sitter Grammar which is a the preferred structure for Atom.
 
 
 
