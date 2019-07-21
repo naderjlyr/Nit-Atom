@@ -1,22 +1,28 @@
 [
 	{
 		"displayText": "@var",
-		"snippet": "var ${1:name}: ${2:type}",
-		"description": "Snippet description."
+		"snippet": "var ${1:VariableName}: ${2:Type}",
+		"description": "Rename VariableName,then hit Tab to define Type."
 	},
 	{
-		"displayText": "@snippet2",
-		"snippet": "Replace ${1:this text} then hit tab to replace ${2:this other text}.",
-		"description": "Snippet description."
+		"displayText": "@module",
+		"snippet": "module ${1:ModuleName}",
+		"description": "Rename ModuleName to whatever you like!"
 	},
 	{
-		"displayText": "@snippet3",
-		"snippet": "Start typing to replace ${1:multiple} ${1:text} ${1:simultaneously}. Then hit tab to ${2:do} ${2:it} ${2:again}.",
-		"description": "Snippet description."
+		"displayText": "@class",
+		"snippet": "class ${1:ClassName}",
+		"description": "Define class, Rename ClassName to whatever your like!"
 	},
 	{
-		"displayText": "@snippet4",
-		"snippet": "You don't need filler text for your prompts. Start typing: $1 (notice where the cursor is).",
-		"description": "Snippet description."
+		"displayText": "@fun/Integer/Param",
+		"snippet": "fun ${1:function}(${2:param1},${3:param2}: ${4:Int}): ${5:Int}",
+		"description": "An integer method with two integer parameters. Hit tab to edit pre-defined."
+	},
+	{
+		"displayText": "@fun/Integer/NoParam",
+		"snippet": "fun ${1:function}(): ${2:Int}",
+		"description": "An integer method without any parameters. Hit tab to edit pre-defined."
 	}
+
 ]

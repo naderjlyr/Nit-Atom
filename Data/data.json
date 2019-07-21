@@ -11,35 +11,34 @@
 
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwmodule.html"
 	},
-
+	{
+		"text": "fun",
+		"description": "Define function, See more:",
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwmeth.html"
+	},
 	{
 		"text": "import",
-		"description": "Define import, See more:",
-
+		"description": "Declares dependencies between modules, See more:",
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwimport.html"
 	},
 	{
 		"text": "class",
 		"description": "Define class, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwclass.html"
 	},
 	{
 		"text": "abstract",
 		"description": "Define abstract, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwabstract.html"
 	},
 	{
 		"text": "interface",
 		"description": "Define interface, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwinterface.html"
 	},
 	{
 		"text": "enum",
 		"description": "Define enum, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwenum.html"
 	},
 	{
