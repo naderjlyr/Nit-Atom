@@ -2,13 +2,11 @@
 	{
 		"text": "package",
 		"description": "Define package, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwpackage.html"
 	},
 	{
 		"text": "module",
 		"description": "Define module, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwmodule.html"
 	},
 	{
@@ -43,68 +41,57 @@
 	},
 	{
 		"text": "subset",
-		"description": "Define subset, See more:",
-
+		"description": "Define subseo t, See more:",
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwsubset.html"
 	},
 	{
 		"text": "end",
 		"description": "Define end, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwend.html"
 	},
 	{
 		"text": "meth",
 		"description": "Define meth, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwmeth.html"
 	},
 	{
 		"text": "type",
 		"description": "Define type, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwtype.html"
 	},
 	{
 		"text": "init",
 		"description": "Define init, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwinit.html"
 	},
 	{
 		"text": "redef",
 		"description": "Define redef, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwredef.html"
 	},
 	{
 		"text": "is",
 		"description": "Define is, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwis.html"
 	},
 	{
 		"text": "do",
 		"description": "Define do, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwdo.html"
 	},
 	{
 		"text": "var",
 		"description": "Define var, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwvar.html"
 	},
 	{
 		"text": "extern",
 		"description": "Define extern, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwextern.html"
 	},
 	{
 		"text": "public",
 		"description": "Define public, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwpublic.html"
 	},
 	{
@@ -116,7 +103,6 @@
 	{
 		"text": "private",
 		"description": "Define private, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwprivate.html"
 	},
 	{
@@ -146,8 +132,6 @@
 	{
 		"text": "while",
 		"description": "Define while, See more:",
-		"description": "Define and, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwwhile.html"
 	},
 	{
@@ -170,13 +154,12 @@
 	},
 	{
 		"text": "and",
-
+		"description": "Define and, See more:",
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwand.html"
 	},
 	{
 		"text": "or",
 		"description": "Define or, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwor.html"
 	},
 	{
@@ -188,20 +171,16 @@
 	{
 		"text": "implies",
 		"description": "Define implies, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwimplies.html"
 	},
 	{
 		"text": "return",
 		"description": "Define return, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwreturn.html"
 	},
 	{
 		"text": "continue",
 		"description": "Define continue, See more:",
-		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwisa.html"
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwcontinue.html"
 	},
 	{
@@ -213,7 +192,6 @@
 	{
 		"text": "abort",
 		"description": "Define abort, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwabort.html"
 	},
 	{
@@ -225,96 +203,82 @@
 	{
 		"text": "new",
 		"description": "Define new, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwnew.html"
 	},
 	{
 		"text": "isa",
 		"description": "Define isa, See more:",
+		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwisa.html"
 
 	},
 	{
 		"text": "once",
 		"description": "Define once, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwonce.html"
 	},
 	{
 		"text": "super",
 		"description": "Define super, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwsuper.html"
 	},
 	{
 		"text": "self",
 		"description": "Define self, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwself.html"
 	},
 	{
 		"text": "true",
 		"description": "Define true, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwtrue.html"
 	},
 	{
 		"text": "false",
 		"description": "Define false, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwfalse.html"
 	},
-	"text": "nullable",
 	{
 		"text": "null",
 		"description": "Define null, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwnull.html"
 	},
 	{
 		"text": "as",
 		"description": "Define as, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwas.html"
 	},
 	{
+		"text": "nullable",
 		"description": "Define nullable, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwnullable.html"
 	},
 	{
 		"text": "isset",
 		"description": "Define isset, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwisset.html"
 	},
 	{
 		"text": "label",
 		"description": "Define label, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwlabel.html"
 	},
 	{
 		"text": "with",
 		"description": "Define with, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwwith.html"
 	},
 	{
 		"text": "debug",
 		"description": "Define debug, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwdebug.html"
 	},
 	{
 		"text": "yield",
 		"description": "Define yield, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwyield.html"
 	},
 	{
 		"text": "catch",
 		"description": "Define catch, See more:",
-
 		"descriptionMoreURL": "http://nitlanguage.org/doc/nitc/class_nitc_58d_58dTKwcatch.html"
 	}
 ]
