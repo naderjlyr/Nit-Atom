@@ -30,7 +30,14 @@ We have made a demo version of this package available in this link. We did not u
 - In order to install the package on Atom, run CMD in the directory with the following command:
 ``` apm link ```
 
-This command links the Nit-Atom package directory to the Atom’s package directory and installs it.
+This command links and installs the Nit-Atom package directory to the Atom’s package directory.
+
+## How to Use
+**Note**: In order to make this package works, at the very first step, create a new file and save it with .nit extension.
+
+- For using the autocomplete feature, just type 2 characters of your keyword and the keyword suggestion list will appear right away, and you can choose one of the suggested words from the list by pressing Tab(for picking first suggested word) and using keyboard arrows(for navigating through the list).
+- For using the snippet feature, type @, and the snippet suggestion list will appear. Press Tab to pick the very first suggested snippet and use Arrows to navigate the list.
+- Grammar works automatically and identifies any mistake that you have done in your code.
 
 
 
