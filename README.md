@@ -26,7 +26,7 @@ We have made a demo version of this package available in [this link](https://git
 ## Local Package Installation
 
 **It is a very straightforward process**
-- Install a proper version of Atom text editor based on your OS [Official Website](https://atom.io/)
+- Install a proper version of Atom text editor based on your OS. [Official Download](https://atom.io/)
 - Clone this repository
 - Extract the package to a permanent directory.
 - In order to install the package on Atom, run CMD in the directory with the following command:
