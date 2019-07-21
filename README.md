@@ -4,7 +4,9 @@ Nit language support for Atom text editor including Autocomplete feature, Snippe
 
 ## What is Nit?
 
-According to its [Official Website](https://atom.io/), Nit is an expressive programming language with a script-like syntax, a friendly type-system and aims at elegance, simplicity and intuitiveness.
+According to its [official website](http://nitlanguage.org), Nit is an expressive programming language with a script-like syntax,
+a friendly type-system and aims at elegance, simplicity and intuitiveness. The Nit project is currently
+in alpha stage, at v0.8. It is in active development, moving fast and the APIs are still evolving
 
 ## What is Atom?
 
@@ -16,14 +18,14 @@ Autocomplete, or word completion, is a feature in which an application predicts 
 Snippet is a programming term for a small region of the re-usable source code, machine code, or text. Ordinarily, these are formally defined operative units to incorporate into larger programming modules. It allows the user to avoid repetitive typing in the course of routine edit operations.
 Syntax highlighting is a feature of text editors that are used for programming, scripting, or markup languages, such as HTML. The feature displays text, especially source code, in different colours and fonts according to the category of terms.
 
-## Atom-Nit Package
+## Nit-Atom Package
 
 Every programming language has rooms for improvement and Nit does not take exception in this rule. This package provides some essential features including autocomplete, snippet, syntax highlighting for Atom text editor, and helps Nit programmers to save their time.
-We have made a demo version of this package available in this link. We did not upload this package to the Atom.io packages, due to the fact that our package needs some editions to be made and of course, after future modifications, it will be uploaded to the Atom.io packages repository for people use.
+We have made a demo version of this package available in [this link](https://github.com/Nader-J/Nit-Atom/). We did not upload this package to the Atom.io packages, because our package needs some modifications to be made and of course, after these mandatory changes, it will be uploaded to the Atom.io repository for people use.
 
 ## Local Package Installation
 
-### It is a very simple process
+**It is a very straightforward process**
 - Install a proper version of Atom text editor based on your OS [Official Website](https://atom.io/)
 - Clone this repository
 - Extract the package to a permanent directory.
