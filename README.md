@@ -42,6 +42,17 @@ This command links and installs the Nit-Atom package directory to the Atom’s p
 - Grammar works automatically and identifies any mistake that you have done in your code.
 
 
+## Checklist
+
+**Note:** This is the alpha version of the package, and all the necessary updates & changes will be applied in the next versions.
+Here is the list of the applied task on the package.
+- [x] Grammar 
+- [x] Autocomplete feature
+- [ ] Snippet generator * * It works perfectly but all the necessary snippets should be included.* * 
+- [ ] Change the structure of snippet generator * * snippet generator gets its data from an url,which needs to get its data from a local file. * * 
+
+
+
 
 
 
