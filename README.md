@@ -48,8 +48,8 @@ This command links and installs the Nit-Atom package directory to the Atom’s p
 Here is the list of the applied task on the package.
 - [x] Grammar 
 - [x] Autocomplete feature
-- [ ] Snippet generator * * It works perfectly but all the necessary snippets should be included.* * 
-- [ ] Change the structure of snippet generator * * snippet generator gets its data from an url,which needs to get its data from a local file. * * 
+- [x] Snippet generator *It works perfectly but all the necessary snippets should be included.* 
+- [ ] Change the structure of snippet generator *snippet generator gets its data from an url,which needs to get its data from a local file.*
 
 
 
