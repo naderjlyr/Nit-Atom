@@ -1,7 +1,7 @@
 'use babel';
 
 // data source is an array of objects
-import suggestions from '../Data/data';
+import suggestions from '../Data/data.json';
 
 class myProvider {
 	constructor() {
