@@ -28,7 +28,7 @@ We have made a demo version of this package available in this link. We did not u
 - Clone this repository
 - Extract the package to a permanant directory.
 - In order to install the package on Atom, run CMD in the directory with the following command:
-` apm link
+``` apm link ```
 
 This command links the Nit-Atom package directory to the Atom’s package directory and installs it.
 
